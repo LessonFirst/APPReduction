@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD9DC6FE244460F400A4DF1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9DC6FD244460F400A4DF1B /* AppDelegate.m */; };
+		CD9DC704244460F400A4DF1B /* RedutionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9DC703244460F400A4DF1B /* RedutionViewController.m */; };
+		CD9DC709244460F500A4DF1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9DC708244460F500A4DF1B /* Assets.xcassets */; };
+		CD9DC70C244460F500A4DF1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9DC70A244460F500A4DF1B /* LaunchScreen.storyboard */; };
+		CD9DC70F244460F500A4DF1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9DC70E244460F500A4DF1B /* main.m */; };
+		CD9DC719244460F500A4DF1B /* APPReductionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9DC718244460F500A4DF1B /* APPReductionTests.m */; };
+		CD9DC724244460F500A4DF1B /* APPReductionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9DC723244460F500A4DF1B /* APPReductionUITests.m */; };
+		CD9DC7332444659B00A4DF1B /* ONLRedutionUseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9DC7322444659B00A4DF1B /* ONLRedutionUseModel.m */; };
+		CD9DC736244465A700A4DF1B /* ONLRedutionUnUseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9DC735244465A700A4DF1B /* ONLRedutionUnUseModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD9DC715244460F500A4DF1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD9DC6F1244460F300A4DF1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD9DC6F8244460F400A4DF1B;
+			remoteInfo = APPReduction;
+		};
+		CD9DC720244460F500A4DF1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD9DC6F1244460F300A4DF1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD9DC6F8244460F400A4DF1B;
+			remoteInfo = APPReduction;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD9DC6F9244460F400A4DF1B /* APPReduction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APPReduction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9DC6FC244460F400A4DF1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD9DC6FD244460F400A4DF1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD9DC702244460F400A4DF1B /* RedutionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedutionViewController.h; sourceTree = "<group>"; };
+		CD9DC703244460F400A4DF1B /* RedutionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedutionViewController.m; sourceTree = "<group>"; };
+		CD9DC708244460F500A4DF1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD9DC70B244460F500A4DF1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD9DC70D244460F500A4DF1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9DC70E244460F500A4DF1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD9DC714244460F500A4DF1B /* APPReductionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APPReductionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9DC718244460F500A4DF1B /* APPReductionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APPReductionTests.m; sourceTree = "<group>"; };
+		CD9DC71A244460F500A4DF1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9DC71F244460F500A4DF1B /* APPReductionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APPReductionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9DC723244460F500A4DF1B /* APPReductionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APPReductionUITests.m; sourceTree = "<group>"; };
+		CD9DC725244460F500A4DF1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9DC7312444659B00A4DF1B /* ONLRedutionUseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ONLRedutionUseModel.h; sourceTree = "<group>"; };
+		CD9DC7322444659B00A4DF1B /* ONLRedutionUseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ONLRedutionUseModel.m; sourceTree = "<group>"; };
+		CD9DC734244465A700A4DF1B /* ONLRedutionUnUseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ONLRedutionUnUseModel.h; sourceTree = "<group>"; };
+		CD9DC735244465A700A4DF1B /* ONLRedutionUnUseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ONLRedutionUnUseModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD9DC6F6244460F400A4DF1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9DC711244460F500A4DF1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9DC71C244460F500A4DF1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD9DC6F0244460F300A4DF1B = {
+			isa = PBXGroup;
+			children = (
+				CD9DC6FB244460F400A4DF1B /* APPReduction */,
+				CD9DC717244460F500A4DF1B /* APPReductionTests */,
+				CD9DC722244460F500A4DF1B /* APPReductionUITests */,
+				CD9DC6FA244460F400A4DF1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD9DC6FA244460F400A4DF1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD9DC6F9244460F400A4DF1B /* APPReduction.app */,
+				CD9DC714244460F500A4DF1B /* APPReductionTests.xctest */,
+				CD9DC71F244460F500A4DF1B /* APPReductionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD9DC6FB244460F400A4DF1B /* APPReduction */ = {
+			isa = PBXGroup;
+			children = (
+				CD9DC6FC244460F400A4DF1B /* AppDelegate.h */,
+				CD9DC6FD244460F400A4DF1B /* AppDelegate.m */,
+				CD9DC702244460F400A4DF1B /* RedutionViewController.h */,
+				CD9DC703244460F400A4DF1B /* RedutionViewController.m */,
+				CD9DC7312444659B00A4DF1B /* ONLRedutionUseModel.h */,
+				CD9DC7322444659B00A4DF1B /* ONLRedutionUseModel.m */,
+				CD9DC734244465A700A4DF1B /* ONLRedutionUnUseModel.h */,
+				CD9DC735244465A700A4DF1B /* ONLRedutionUnUseModel.m */,
+				CD9DC708244460F500A4DF1B /* Assets.xcassets */,
+				CD9DC70A244460F500A4DF1B /* LaunchScreen.storyboard */,
+				CD9DC70D244460F500A4DF1B /* Info.plist */,
+				CD9DC70E244460F500A4DF1B /* main.m */,
+			);
+			path = APPReduction;
+			sourceTree = "<group>";
+		};
+		CD9DC717244460F500A4DF1B /* APPReductionTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD9DC718244460F500A4DF1B /* APPReductionTests.m */,
+				CD9DC71A244460F500A4DF1B /* Info.plist */,
+			);
+			path = APPReductionTests;
+			sourceTree = "<group>";
+		};
+		CD9DC722244460F500A4DF1B /* APPReductionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD9DC723244460F500A4DF1B /* APPReductionUITests.m */,
+				CD9DC725244460F500A4DF1B /* Info.plist */,
+			);
+			path = APPReductionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD9DC6F8244460F400A4DF1B /* APPReduction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9DC728244460F500A4DF1B /* Build configuration list for PBXNativeTarget "APPReduction" */;
+			buildPhases = (
+				CD9DC6F5244460F400A4DF1B /* Sources */,
+				CD9DC6F6244460F400A4DF1B /* Frameworks */,
+				CD9DC6F7244460F400A4DF1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APPReduction;
+			productName = APPReduction;
+			productReference = CD9DC6F9244460F400A4DF1B /* APPReduction.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD9DC713244460F500A4DF1B /* APPReductionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9DC72B244460F500A4DF1B /* Build configuration list for PBXNativeTarget "APPReductionTests" */;
+			buildPhases = (
+				CD9DC710244460F500A4DF1B /* Sources */,
+				CD9DC711244460F500A4DF1B /* Frameworks */,
+				CD9DC712244460F500A4DF1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD9DC716244460F500A4DF1B /* PBXTargetDependency */,
+			);
+			name = APPReductionTests;
+			productName = APPReductionTests;
+			productReference = CD9DC714244460F500A4DF1B /* APPReductionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD9DC71E244460F500A4DF1B /* APPReductionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9DC72E244460F500A4DF1B /* Build configuration list for PBXNativeTarget "APPReductionUITests" */;
+			buildPhases = (
+				CD9DC71B244460F500A4DF1B /* Sources */,
+				CD9DC71C244460F500A4DF1B /* Frameworks */,
+				CD9DC71D244460F500A4DF1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD9DC721244460F500A4DF1B /* PBXTargetDependency */,
+			);
+			name = APPReductionUITests;
+			productName = APPReductionUITests;
+			productReference = CD9DC71F244460F500A4DF1B /* APPReductionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD9DC6F1244460F300A4DF1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = only;
+				TargetAttributes = {
+					CD9DC6F8244460F400A4DF1B = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					CD9DC713244460F500A4DF1B = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = CD9DC6F8244460F400A4DF1B;
+					};
+					CD9DC71E244460F500A4DF1B = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = CD9DC6F8244460F400A4DF1B;
+					};
+				};
+			};
+			buildConfigurationList = CD9DC6F4244460F300A4DF1B /* Build configuration list for PBXProject "APPReduction" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD9DC6F0244460F300A4DF1B;
+			productRefGroup = CD9DC6FA244460F400A4DF1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD9DC6F8244460F400A4DF1B /* APPReduction */,
+				CD9DC713244460F500A4DF1B /* APPReductionTests */,
+				CD9DC71E244460F500A4DF1B /* APPReductionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD9DC6F7244460F400A4DF1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9DC70C244460F500A4DF1B /* LaunchScreen.storyboard in Resources */,
+				CD9DC709244460F500A4DF1B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9DC712244460F500A4DF1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9DC71D244460F500A4DF1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD9DC6F5244460F400A4DF1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9DC704244460F400A4DF1B /* RedutionViewController.m in Sources */,
+				CD9DC7332444659B00A4DF1B /* ONLRedutionUseModel.m in Sources */,
+				CD9DC6FE244460F400A4DF1B /* AppDelegate.m in Sources */,
+				CD9DC70F244460F500A4DF1B /* main.m in Sources */,
+				CD9DC736244465A700A4DF1B /* ONLRedutionUnUseModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9DC710244460F500A4DF1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9DC719244460F500A4DF1B /* APPReductionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9DC71B244460F500A4DF1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9DC724244460F500A4DF1B /* APPReductionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD9DC716244460F500A4DF1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD9DC6F8244460F400A4DF1B /* APPReduction */;
+			targetProxy = CD9DC715244460F500A4DF1B /* PBXContainerItemProxy */;
+		};
+		CD9DC721244460F500A4DF1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD9DC6F8244460F400A4DF1B /* APPReduction */;
+			targetProxy = CD9DC720244460F500A4DF1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD9DC70A244460F500A4DF1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD9DC70B244460F500A4DF1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD9DC726244460F500A4DF1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD9DC727244460F500A4DF1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD9DC729244460F500A4DF1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29HA8N9RQ5;
+				INFOPLIST_FILE = APPReduction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Predator.mine.APPReduction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD9DC72A244460F500A4DF1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29HA8N9RQ5;
+				INFOPLIST_FILE = APPReduction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Predator.mine.APPReduction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD9DC72C244460F500A4DF1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29HA8N9RQ5;
+				INFOPLIST_FILE = APPReductionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Predator.mine.APPReductionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APPReduction.app/APPReduction";
+			};
+			name = Debug;
+		};
+		CD9DC72D244460F500A4DF1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29HA8N9RQ5;
+				INFOPLIST_FILE = APPReductionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Predator.mine.APPReductionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APPReduction.app/APPReduction";
+			};
+			name = Release;
+		};
+		CD9DC72F244460F500A4DF1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29HA8N9RQ5;
+				INFOPLIST_FILE = APPReductionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Predator.mine.APPReductionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = APPReduction;
+			};
+			name = Debug;
+		};
+		CD9DC730244460F500A4DF1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29HA8N9RQ5;
+				INFOPLIST_FILE = APPReductionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Predator.mine.APPReductionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = APPReduction;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD9DC6F4244460F300A4DF1B /* Build configuration list for PBXProject "APPReduction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9DC726244460F500A4DF1B /* Debug */,
+				CD9DC727244460F500A4DF1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9DC728244460F500A4DF1B /* Build configuration list for PBXNativeTarget "APPReduction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9DC729244460F500A4DF1B /* Debug */,
+				CD9DC72A244460F500A4DF1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9DC72B244460F500A4DF1B /* Build configuration list for PBXNativeTarget "APPReductionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9DC72C244460F500A4DF1B /* Debug */,
+				CD9DC72D244460F500A4DF1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9DC72E244460F500A4DF1B /* Build configuration list for PBXNativeTarget "APPReductionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9DC72F244460F500A4DF1B /* Debug */,
+				CD9DC730244460F500A4DF1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD9DC6F1244460F300A4DF1B /* Project object */;
+}
