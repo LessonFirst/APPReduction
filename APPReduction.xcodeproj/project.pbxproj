@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7A2B48BAE337AC58EAA0CD4 /* libPods-APPReduction.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D86AC7A700B0500C5F6A6A87 /* libPods-APPReduction.a */; };
 		CD9DC6FE244460F400A4DF1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9DC6FD244460F400A4DF1B /* AppDelegate.m */; };
 		CD9DC704244460F400A4DF1B /* RedutionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9DC703244460F400A4DF1B /* RedutionViewController.m */; };
 		CD9DC709244460F500A4DF1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9DC708244460F500A4DF1B /* Assets.xcassets */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22A6E79591923BD0302ECF2E /* Pods-APPReduction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APPReduction.debug.xcconfig"; path = "Target Support Files/Pods-APPReduction/Pods-APPReduction.debug.xcconfig"; sourceTree = "<group>"; };
+		92FC51E144E8D550FF5694AE /* Pods-APPReduction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APPReduction.release.xcconfig"; path = "Target Support Files/Pods-APPReduction/Pods-APPReduction.release.xcconfig"; sourceTree = "<group>"; };
 		CD9DC6F9244460F400A4DF1B /* APPReduction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APPReduction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9DC6FC244460F400A4DF1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD9DC6FD244460F400A4DF1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -55,6 +58,7 @@
 		CD9DC7322444659B00A4DF1B /* ONLRedutionUseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ONLRedutionUseModel.m; sourceTree = "<group>"; };
 		CD9DC734244465A700A4DF1B /* ONLRedutionUnUseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ONLRedutionUnUseModel.h; sourceTree = "<group>"; };
 		CD9DC735244465A700A4DF1B /* ONLRedutionUnUseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ONLRedutionUnUseModel.m; sourceTree = "<group>"; };
+		D86AC7A700B0500C5F6A6A87 /* libPods-APPReduction.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-APPReduction.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7A2B48BAE337AC58EAA0CD4 /* libPods-APPReduction.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +87,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F56A10261E4BF2D4E1C04EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D86AC7A700B0500C5F6A6A87 /* libPods-APPReduction.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6098EDFC71AB05F8D9955221 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22A6E79591923BD0302ECF2E /* Pods-APPReduction.debug.xcconfig */,
+				92FC51E144E8D550FF5694AE /* Pods-APPReduction.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CD9DC6F0244460F300A4DF1B = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +112,8 @@
 				CD9DC717244460F500A4DF1B /* APPReductionTests */,
 				CD9DC722244460F500A4DF1B /* APPReductionUITests */,
 				CD9DC6FA244460F400A4DF1B /* Products */,
+				6098EDFC71AB05F8D9955221 /* Pods */,
+				5F56A10261E4BF2D4E1C04EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD9DC728244460F500A4DF1B /* Build configuration list for PBXNativeTarget "APPReduction" */;
 			buildPhases = (
+				93C07889A094C1E36A734FEB /* [CP] Check Pods Manifest.lock */,
 				CD9DC6F5244460F400A4DF1B /* Sources */,
 				CD9DC6F6244460F400A4DF1B /* Frameworks */,
 				CD9DC6F7244460F400A4DF1B /* Resources */,
+				596436BA60DD303D26B70713 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -262,6 +289,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		596436BA60DD303D26B70713 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-APPReduction/Pods-APPReduction-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-APPReduction/Pods-APPReduction-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-APPReduction/Pods-APPReduction-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93C07889A094C1E36A734FEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-APPReduction-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CD9DC6F5244460F400A4DF1B /* Sources */ = {
@@ -431,6 +500,7 @@
 		};
 		CD9DC729244460F500A4DF1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22A6E79591923BD0302ECF2E /* Pods-APPReduction.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +518,7 @@
 		};
 		CD9DC72A244460F500A4DF1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92FC51E144E8D550FF5694AE /* Pods-APPReduction.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

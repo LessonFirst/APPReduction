@@ -2,18 +2,12 @@
 # platform :ios, '9.0'
 
 target 'APPReduction' do
-  # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
 
-  # Pods for APPReduction
-
-  target 'APPReductionTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'APPReductionUITests' do
-    # Pods for testing
-  end
+pod 'Masonry', '~> 1.0.2'
+pod 'AFNetworking'
+pod 'YYModel'
+pod 'IQKeyboardManager'
+pod 'FDFullscreenPopGesture', '1.1'
+pod 'MJRefresh'
 
 end

@@ -53,9 +53,9 @@
     [UIImage imageNamed:@"driver"];
     [UIImage imageNamed:@"function"];
     [UIImage imageNamed:@"header"];
-    [UIImage imageNamed:[@"think_"stringByAppendingFormat:@"005"]];
-    [UIImage imageNamed:[@"think_"stringByAppendingFormat:@"006"]];
-    [UIImage imageNamed:[@"think_"stringByAppendingFormat:@"007"]];
+//    [UIImage imageNamed:[@"think_"stringByAppendingFormat:@"005"]];
+//    [UIImage imageNamed:[@"think_"stringByAppendingFormat:@"006"]];
+//    [UIImage imageNamed:[@"think_"stringByAppendingFormat:@"007"]];
     
 }
 
